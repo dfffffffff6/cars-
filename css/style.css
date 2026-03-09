@@ -1,0 +1,28 @@
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.image{
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+}
+.body{
+    background-color: #24C0DB;
+    text-align: center;
+    border-radius: 20px;
+}
+.title{
+    color: white;
+}
+.type{
+    color: white;
+    padding: 12px 0;
+
+
+}
+.price{
+    color: white;
+}
