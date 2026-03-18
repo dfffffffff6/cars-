@@ -1,76 +1,55 @@
  export const cars = [
-  {
-    name: "Cobalt",
-    price: "$15000",
-    type: "Sedan",
-    img: "https://news.store.rambler.ru/img/bef1041b92dc44e59051b3d2b9876ea7?img-1-resize=width%3A1280%2Cheight%3A720%2Cfit%3Acover&img-format=auto"
-  },
-  {
-    name: "Damas",
-    price: "$9000",
-    type: "Minivan",
-    img: "https://chevrolet.uz/assets/images/damas/damas-uz.webp"
-  },
-  {
-    name: "Captiva",
-    price: "$32000",
-    type: "SUV",
-    img: "https://octane.rent/wp-content/uploads/2023/09/chevrolet-captiva-grey-2-600x400.webp"
-  },
-  {
-    name: "Gentra",
-    price: "$17000",
-    type: "Sedan",
-    img: "https://car24.uz/wp-content/uploads/2024/01/4a4a27f468ef5856e02e30a3f4e123b6e7d620a3.jpg"
-  },
-  {
-    name: "Malibu 2",
-    price: "$35000",
-    type: "Sedan",
-    img: "https://themag.uz/wp-content/uploads/2024/08/themag-56.webp"
-  },
-  {
-    name: "Tracker",
-    price: "$23000",
-    type: "Crossover",
-    img: "https://frankfurt.apollo.olxcdn.com/v1/files/siv4fifayljz1-UZ/image;s=1000x744"
-  },
-  {
-    name: "Spark",
-    price: "$11000",
-    type: "Hatchback",
-    img: "https://kluz-photos.kcdn.online/kluz-content/97d8ef6b-d05c-45bb-96e8-79d74f33861a-960x540.jpg"
-  },
-  {
-    name: "Nexia 3",
-    price: "$12000",
-    type: "Sedan",
-    img: "https://90f1661d-2ff4-4f29-b07c-0e47453ca691.selstorage.ru/site1002518/89a8fd5d-1bd1-41c6-8e5a-b22ff3486bbf/89a8fd5d-1bd1-41c6-8e5a-b22ff3486bbf-12498828.png"
-  },
-  {
-    name: "Labo",
-    price: "$10000",
-    type: "Pickup",
-    img: "https://chevrolet.uz/assets/images/labo/labo-uz.webp"
-  },
-  {
-    name: "BMW M5",
-    price: "$120000",
-    type: "Sport Sedan",
-    img: "https://bmw.scene7.com/is/image/BMW/g90_driving-dynamics_fb?qlt=80&wid=1024&fmt=webp"
-  },
-   {
-    name: "BMW X5",
-    price: "$90000",
-    type: "Sport Sedan",
-    img: "https://media.ed.edmunds-media.com/bmw/x5/2024/oem/2024_bmw_x5_4dr-suv_xdrive40i_fq_oem_1_1280.jpg"
-   },
-    {
-    name: "Traverse",
-    price: "$70000",
-    type: "Exclusive Sedan",
-    img: "https://uzautomotors.com/images/uploads/4e50df7db60cecaf32d308696cc9041c.png"
-   }
+  { id: 1, name: "Tesla Model S", price: 89990, type: "Electric", img: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?q=80&w=600" },
+  { id: 2, name: "BMW M4 Coupe", price: 78100, type: "Sport", img: "https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=600" },
+  { id: 3, name: "Mercedes G-Class", price: 139900, type: "SUV", img: "https://images.unsplash.com/photo-1520031441872-265e4ff70366?q=80&w=600" },
+  { id: 4, name: "Audi RS7", price: 120900, type: "Sedan", img: "https://images.unsplash.com/photo-1606611013016-969c19ba27bb?q=80&w=600" },
+  { id: 5, name: "Porsche 911 GT3", price: 161100, type: "Sport", img: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=600" },
+  { id: 6, name: "Toyota Land Cruiser", price: 85000, type: "SUV", img: "https://repost.uz/storage/uploads/30-1692011046-avto11-post-material.jpeg" },
+  { id: 7, name: "Lamborghini Huracan", price: 210000, type: "Sport", img: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=600" },
+  { id: 8, name: "Chevrolet Tahoe", price: 54000, type: "SUV", img: "https://images.unsplash.com/photo-1551522435-a13afa10f103?q=80&w=600" },
+  { id: 9, name: "Ford Mustang Mach-E", price: 45000, type: "Electric", img: "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?q=80&w=600" },
+  { id: 10, name: "Rolls-Royce Ghost", price: 340000, type: "Sedan", img: "https://lh5.googleusercontent.com/proxy/3wPUx0Ce2PYSYZXN7J-pB_qNWOHRbRGyw7mxXaQcbvTa7fqLwKvEopxYldvvkXS-GB_jQfMcdD2aX_pWsDuh" },
+  { id: 11, name: "Ferrari F8 Tributo", price: 280000, type: "Sport", img: "https://images.unsplash.com/photo-1592198084033-aade902d1aae?q=80&w=600" },
+  { id: 12, name: "Hyundai Santa Fe", price: 30000, type: "SUV", img: "https://www.hyundai.com/content/dam/hyundai/template_en/en/images/find-a-car/pip/santafe-2023/highlights/galley/the-all-new-santafe-mx5-gallery-ex-11-copper-santafe-left-sideview-pc.jpg" },
+  { id: 13, name: "Range Rover Vogue", price: 105000, type: "SUV", img: "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?q=80&w=600" },
+  { id: 14, name: "Kia EV6 GT", price: 48000, type: "Electric", img: "https://ev-database.org/img/auto/Kia_EV6_GT_2021/Kia_EV6_GT_2021-01@2x.jpg" },
+  { id: 15, name: "Volkswagen Golf GTI", price: 31000, type: "Hatchback", img: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=600" },
+  { id: 16, name: "Bugatti Chiron", price: 3000000, type: "Sport", img: "https://images.autox.com/uploads/2024/01/Bugatti-Chiron.jpg" },
+  { id: 17, name: "Lexus RX 350", price: 49000, type: "SUV", img: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=600" },
+  { id: 18, name: "Honda Civic Type R", price: 44000, type: "Sport", img: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=600" },
+  { id: 19, name: "Nissan GT-R Nismo", price: 115000, type: "Sport", img: "https://nissan-moscow.ru/upload/sprint.editor/37d/img-1676464376-827-605-0.jpg" },
+  { id: 20, name: "Aston Martin DB11", price: 205000, type: "Sport", img: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?q=80&w=600" },
+  { id: 21, name: "Volvo XC90", price: 56000, type: "SUV", img: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=600" },
+  { id: 22, name: "Mazda CX-5", price: 28000, type: "SUV", img: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=600" },
+  { id: 23, name: "Rivian R1T", price: 73000, type: "Electric", img: "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=600" },
+  { id: 24, name: "Jeep Wrangler", price: 42000, type: "SUV", img: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=600" },
+  { id: 25, name: "Bentley GT", price: 235000, type: "Sedan", img: "https://images.unsplash.com/photo-1621135802920-133df287f89c?q=80&w=600" },
+  { id: 26, name: "Subaru WRX", price: 32000, type: "Sedan", img: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=600" },
+  { id: 27, name: "Jaguar F-Type", price: 77000, type: "Sport", img: "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?q=80&w=600" },
+  { id: 28, name: "Maserati Quattro", price: 108000, type: "Sedan", img: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=600" },
+  { id: 29, name: "Cadillac Escalade", price: 81000, type: "SUV", img: "https://trinityrental.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Ftrinityrental-e51d5.appspot.com%2Fcadillac_escalade_luxary_937c898434%2Fcadillac_escalade_luxary_937c898434.jpg&w=3840&q=75" },
+  { id: 30, name: "Polestar 2", price: 49000, type: "Electric", img: "https://upload.wikimedia.org/wikipedia/commons/c/ca/Polestar_2_%E2%80%93_f_02042021.jpg" },
+  { id: 31, name: "McLaren 720S", price: 305000, type: "Sport", img: "https://images.unsplash.com/photo-1597404294360-feeeda04612e?q=80&w=600" },
+  { id: 32, name: "Land Rover Defender", price: 60000, type: "SUV", img: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=600" },
+  { id: 33, name: "Genesis G90", price: 88000, type: "Sedan", img: "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=600" },
+  { id: 34, name: "Lucid Air", price: 77000, type: "Electric", img: "https://cimg3.ibsrv.net/ibimg/hgm/1920x1080-1/100/760/2021-lucid-air_100760427.jpg" },
+  { id: 35, name: "Dodge Challenger", price: 32000, type: "Sport", img: "https://images.unsplash.com/photo-1611016186353-9af58c69a533?q=80&w=600" },
+  { id: 36, name: "Porsche Cayenne", price: 72000, type: "SUV", img: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=600" },
+  { id: 37, name: "Fiat 500e", price: 33000, type: "Electric", img: "https://cdn.motor1.com/images/mgl/L3kyjQ/s1/4x3/2024-fiat-500e-first-drive-review.webp" },
+  { id: 38, name: "Ram 1500 TRX", price: 84000, type: "Truck", img: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=600" },
+  { id: 39, name: "Pagani Huayra", price: 2600000, type: "Sport", img: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=600" },
+  { id: 40, name: "Mini Cooper S", price: 29000, type: "Hatchback", img: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=600" },
+  { id: 41, name: "Lexus LC 500", price: 95000, type: "Sport", img: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=600" },
+  { id: 42, name: "Hummer EV", price: 110000, type: "Electric", img: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=600" },
+  { id: 43, name: "Infiniti QX80", price: 72000, type: "SUV", img: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=600" },
+  { id: 44, name: "Alfa Romeo Giulia", price: 44000, type: "Sedan", img: "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?q=80&w=600" },
+  { id: 45, name: "Lotus Emira", price: 75000, type: "Sport", img: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=600" },
+  { id: 46, name: "Lincoln Navigator", price: 79000, type: "SUV", img: "https://article.images.consumerreports.org/image/upload/w_652,f_auto,q_auto,ar_16:9,c_lfill/v1756390861/prod/content/dam/CRO-Images-2025/Cars/CR-Cars-InlineHero-2025-Lincoln-Navigator-Black-Label-f-driving-8-25" },
+  { id: 47, name: "Toyota Supra MK5", price: 54000, type: "Sport", img: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=600" },
+  { id: 48, name: "Acura NSX", price: 171000, type: "Sport", img: "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?q=80&w=600" },
+  { id: 49, name: "F-150 Lightning", price: 55000, type: "Electric", img: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=600" },
+  { id: 50, name: "Koenigsegg Jesko", price: 3000000, type: "Sport", img: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=600" },
+  { id: 51, name: "Corvette C8", price: 68000, type: "Sport", img: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=600" }
 ];
 
 export default cars;

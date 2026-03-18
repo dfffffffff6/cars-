@@ -1,0 +1,135 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.image{
+    width: 400px;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 5%;
+}
+.body{
+    background-color: rgb(87, 6, 87);
+    text-align: center;
+    border-radius: 20px;
+}
+.title{
+    color:blue;
+}
+.type{
+    color: red;
+    padding: 12px 0;
+
+
+}
+.price{
+    color: green;
+}
+/* Formaning umumiy dizayni */
+form {
+    display: flex;
+    gap: 15px;
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Qidiruv inputi va Select uchun umumiy stillar */
+.inpSearch, #inpSelect {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    outline: none;
+    transition: all 0.3s ease; /* Effektlar silliq ishlashi uchun */
+    background-color: #ffffff;
+    
+    /* Chiroyli yumshoq soya */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 
+                0 1px 3px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* Inputga bosilgandagi (Focus) holat */
+.inpSearch:focus, #inpSelect:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    
+    /* Kuchliroq va rangliroq soya */
+    box-shadow: 0 10px 15px -3px rgba(0, 123, 255, 0.2), 
+                0 4px 6px -2px rgba(0, 123, 255, 0.1);
+    transform: translateY(-2px); /* Bir oz yuqoriga ko'tarilish effekti */
+}
+
+/* Sichqoncha ustiga kelgandagi holat (Hover) */
+.inpSearch:hover, #inpSelect:hover {
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1);
+    border-color: #e0e0e0;
+}
+
+/* Placeholder matni uchun rang */
+.inpSearch::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+/* Select menyusi uchun maxsus qo'shimcha */
+#inpSelect {
+    cursor: pointer;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg%20xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg"%20width%3D"24"%20height%3D"24"%20viewBox%3D"0%200%2024%2024"><path%20fill%3D"%23333"%20d%3D"M7%2010l5%205%205-5z"%2F><%2Fsvg>'); /* Pastga qaragan strelka */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    appearance: none; /* Standart strelkani o'chirish */
+    padding-right: 40px;
+}
+.delete {
+  /* Paddingni 12px dan 6px ga tushirdik - bu balandlikni kamaytiradi */
+  padding: 6px 28px; 
+  font-size: 15px; /* Matnni ham biroz kichraytirsak mosroq tushadi */
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ff4d4d;
+  border: 2px solid #ff4d4d;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: -1    5px;
+  transition: all 0.3s ease;
+  
+  /* 3D soya balandligini ham 4px dan 3px ga moslashtirdik */
+  box-shadow: 0 3px 0px #b33636; 
+  
+  /* Tugma ichidagi matn markazda turishi uchun */
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+/* Sichqoncha ustiga kelganda */
+.delete:hover {
+  background-color: #ff3333;
+  border-color: #ff3333;
+  box-shadow: 0 4px 0px #802626;
+  transform: translateY(-2px);
+}
+
+/* Tugma bosilgan holatda */
+.delete:active {
+  box-shadow: 0 0px 0px #802626;
+  /* Balandlik kichik bo'lgani uchun surilishni 4px dan 2px ga tushirdik */
+  transform: translateY(2px); 
+  animation: shake 0.2s ease-in-out;
+}
+
+/* Animatsiya o'zgarishsiz qoladi */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  25% { transform: translate(-1px, -2px) rotate(-1deg); }
+  50% { transform: translate(-3px, 0px) rotate(1deg); }
+  75% { transform: translate(3px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -1px) rotate(1deg); }
+}
